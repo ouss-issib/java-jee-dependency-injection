@@ -5,8 +5,8 @@
         <bean id="d" class="ext.DaoImplV2"/>
         <bean id="metier" class="metier.MetierImpl">
             <!--via le setter-->
-            <!--<property name="dao" ref="d"/>-->
+            <property name="dao" ref="d"/>
             <!--via le constructeur-->
-            <constructor-arg ref="d" />
-        </bean>
-</beans>
+            <!-- <constructor-arg ref="d" />-->
+         </bean>
+ </beans>
