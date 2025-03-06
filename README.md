@@ -44,7 +44,7 @@ Deux méthodes d'utilisation du framework Spring sont présentées :
 
 | xml-configuration | Implementation Extension |
 |---|---|
-| ![](./captures/xml-config.png) | ![](./captures/extention.png)![](./captures/extention_impl.png)![](./captures/extention_res.png) |
+| ![](./captures/xml_config.png) | ![](./captures/extention.png)![](./captures/extention_impl.png)![](./captures/extention_res.png) |
 
 
 
