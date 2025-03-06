@@ -32,7 +32,7 @@ Le projet est organisé en plusieurs classes suivant les principes du couplage f
 ## Utilisation de Spring
 Deux méthodes d'utilisation du framework Spring sont présentées :
 1. **Configuration XML** : 
-   - Un fichier `applicationContext.xml` définit les beans et les injections de dépendances.
+   - Un fichier `config.xml` définit les beans et les injections de dépendances.
 2. **Annotations** : 
    - Utilisation de `@Component`, `@Autowired`, et `@Service` pour définir et injecter les dépendances dynamiquement.
 
