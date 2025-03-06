@@ -55,7 +55,7 @@ Deux méthodes d'utilisation du framework Spring sont présentées :
    
 2. Naviguer dans le répertoire du dépôt :
    ```bash
-   cd practical-activity-java-fx
+   cd java-jee-dependency-injection
 
 3. Compiler et exécuter les fichiers Java :
    ```bash
