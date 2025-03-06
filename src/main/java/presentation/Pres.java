@@ -9,7 +9,7 @@ public class Pres {
         //Injection de dependances par instanciation statique
         DaoImpl dao = new DaoImpl();
         MetierImpl metier = new MetierImpl(dao);
-        metier.setDao(dao);
+        //metier.setDao(dao);
         System.out.println("Resultat = "+metier.calcul());
     }
 }
