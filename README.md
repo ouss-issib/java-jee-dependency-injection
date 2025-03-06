@@ -40,11 +40,11 @@ Deux méthodes d'utilisation du framework Spring sont présentées :
 
 | Par instanciation statique | Framework Spring- Version XML | Framework Spring- Version ANNOTATIONS |
 |---|---|---|
-| ![](./captures/static.png)![](./captures/static_res.png) | ![Framework Spring- Version XML](./captures/xml.png) | ![Framework Spring- Version ANNOTATIONS](./captures/annotations.png) |
+| ![](./captures/static.png)![](./captures/static_res.png) | ![](./captures/xml.png)![](./captures/xml_res.png) | ![](./captures/annotations.png)![](./captures/annotations_res.png) |
 
-| xml-configuration | Mise à jour de produit (Étape 2) | Mise à jour de produit (Étape 3) |
-|---|---|---|
-| ![Mise à jour - 1](./captures/xml-config.png) | ![Mise à jour - 2](./captures/crud-update-2.png) | ![Mise à jour - 3](./captures/crud-update-3.png) |
+| xml-configuration | Implementation Extension |
+|---|---|
+| ![](./captures/xml-config.png) | ![](./captures/extention.png)![](./captures/extention_impl.png)![](./captures/extention_res.png) |
 
 
 
