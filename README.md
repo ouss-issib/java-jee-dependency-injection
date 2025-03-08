@@ -32,7 +32,7 @@ Le projet est organisé en plusieurs classes suivant les principes du couplage f
 ## Utilisation de Spring
 Deux méthodes d'utilisation du framework Spring sont présentées :
 1. **Configuration XML** : 
-   - Un fichier `applicationContext.xml` définit les beans et les injections de dépendances.
+   - Un fichier `config.xml` définit les beans et les injections de dépendances.
 2. **Annotations** : 
    - Utilisation de `@Component`, `@Autowired`, et `@Service` pour définir et injecter les dépendances dynamiquement.
 
@@ -40,11 +40,11 @@ Deux méthodes d'utilisation du framework Spring sont présentées :
 
 | Par instanciation statique | Framework Spring- Version XML | Framework Spring- Version ANNOTATIONS |
 |---|---|---|
-| ![](./captures/static.png)![](./captures/static_res.png) | ![Framework Spring- Version XML](./captures/xml.png) | ![Framework Spring- Version ANNOTATIONS](./captures/annotations.png) |
+| ![](./captures/static.png)![](./captures/static_res.png) | ![](./captures/xml.png)![](./captures/xml_res.png) | ![](./captures/annotations.png)![](./captures/annotations_res.png) |
 
-| xml-configuration | Mise à jour de produit (Étape 2) | Mise à jour de produit (Étape 3) |
-|---|---|---|
-| ![Mise à jour - 1](./captures/xml-config.png) | ![Mise à jour - 2](./captures/crud-update-2.png) | ![Mise à jour - 3](./captures/crud-update-3.png) |
+| xml-configuration | Implementation Extension |
+|---|---|
+| ![](./captures/xml_config.png) | ![](./captures/extention.png)![](./captures/extention_impl.png)![](./captures/extention_res.png) |
 
 
 
@@ -55,7 +55,7 @@ Deux méthodes d'utilisation du framework Spring sont présentées :
    
 2. Naviguer dans le répertoire du dépôt :
    ```bash
-   cd practical-activity-java-fx
+   cd java-jee-dependency-injection
 
 3. Compiler et exécuter les fichiers Java :
    ```bash
