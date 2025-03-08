@@ -38,13 +38,13 @@ Deux méthodes d'utilisation du framework Spring sont présentées :
 
  ## Captures d'écran
 
-| Par instanciation statique | Framework Spring- Version XML | Framework Spring- Version ANNOTATIONS |
-|---|---|---|
-| ![](./captures/static.png)![](./captures/static_res.png) | ![](./captures/xml.png)![](./captures/xml_res.png) | ![](./captures/annotations.png)![](./captures/annotations_res.png) |
+| Par instanciation statique | Par instanciation dynamique | Framework Spring- Version XML | Framework Spring- Version ANNOTATIONS |
+|---|---|---|---|
+| ![](./captures/static.png)![](./captures/static_res.png) | ![](./captures/dynamic.png)![](./captures/dynamic_res.png) | ![](./captures/xml.png)![](./captures/xml_res.png) | ![](./captures/annotations.png)![](./captures/annotations_res.png) |
 
-| xml-configuration | Implementation Extension |
-|---|---|
-| ![](./captures/xml_config.png) | ![](./captures/extention.png)![](./captures/extention_impl.png)![](./captures/extention_res.png) |
+| xml-configuration | txt-config | Implementation Extension |
+|---|---|---|
+| ![](./captures/xml_config.png) | ![](./captures/config-txt.png) | ![](./captures/extention.png)![](./captures/extention_impl.png)![](./captures/extention_res.png) |
 
 
 
